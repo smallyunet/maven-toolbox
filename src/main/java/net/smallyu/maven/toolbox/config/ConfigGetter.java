@@ -122,6 +122,9 @@ public class ConfigGetter {
             }
             String inner = url.getPath();
             file = new File(inner);
+            if (!file.exists()) {
+                return null;
+            }
         }
         return file;
     }

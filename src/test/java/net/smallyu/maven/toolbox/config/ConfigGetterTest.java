@@ -11,7 +11,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConfigGetterTest {
 
     @Test
-    void getInstance() {
+    void getInstance1() {
+        ConfigGetter instance = ConfigGetter.getInstance();
+        assertNotNull(instance);
+    }
+
+    @Test
+    void getInstance2() {
         ConfigGetter instance = ConfigGetter.getInstance(true);
         assertNotNull(instance);
     }
