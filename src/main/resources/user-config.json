@@ -1,0 +1,13 @@
+{
+  "ukey1": "value1",
+  "ukey2": {
+    "key2.1": "value2.1",
+    "key2.2": {
+      "key2.2.1": "value2.2.1"
+    }
+  },
+  "ukey3": 1024,
+  "ukey4": [{
+    "key4.1": "value4.1"
+  }]
+}
